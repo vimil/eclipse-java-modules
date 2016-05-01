@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java Module
+Bundle-SymbolicName: com.cwctravel.eclipse.plugins.javamodule;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.navigator,
+ org.eclipse.ui.views,
+ org.eclipse.ui,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.workbench,
+ org.eclipse.jdt,
+ org.eclipse.jdt.core,
+ org.eclipse.ltk.ui.refactoring,
+ org.eclipse.jdt.ui,
+ org.eclipse.ui.navigator.resources,
+ org.eclipse.team.core,
+ org.eclipse.team.ui
+Bundle-Activator: com.cwctravel.eclipse.plugins.javamodule.JavaModulePlugin
+Bundle-ActivationPolicy: lazy
